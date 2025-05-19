@@ -1,15 +1,15 @@
 # 100 Days Coding Challenge — Day 1 Complete 🚀
 
 Welcome to my **100 Days Coding Challenge** repository!  
-This repo documents my journey solving one algorithmic problem every day, sharpening my problem-solving muscles and preparing for technical interviews.  
-Day 1 is done — and here’s what I tackled, how I approached the problems, the mistakes I made, and lessons learned.
+This repo documents my journey solving few algorithmic problems every day, sharpening my problem-solving muscles and preparing for technical interviews.  
+Day 1 is done and here’s what I tackled, how I approached the problems, the mistakes I made, and lessons learned.
 
 ---
 
 ## Why This Challenge?
 
 - **Build Consistency & Confidence:** Knowing concepts is one thing; applying them daily builds real coding stamina.  
-- **Sharpen Problem Patterns:** From brute force to optimized solutions — the journey helps me see patterns faster.  
+- **Sharpen Problem Patterns:** From brute force to optimized solutions, the journey helps me see patterns faster.  
 - **Prepare for Placements:** Many tech interviews revolve around these core problem types. Mastery here = a strong foundation.
 
 ---
