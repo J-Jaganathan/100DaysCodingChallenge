@@ -56,6 +56,9 @@ To compile and run a solution:
 g++ Day1/SubarraySumEqualsK.cpp -o subarraysum
 ./subarraysum
 ```
+
+Or try to copy the code and run in Online C++ Compiler
+
 ## Tech Stack
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
