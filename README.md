@@ -55,3 +55,11 @@ To compile and run a solution:
 ```bash
 g++ Day1/SubarraySumEqualsK.cpp -o subarraysum
 ./subarraysum
+```
+## Tech Stack
+
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![GCC](https://img.shields.io/badge/GCC-FFAA00?style=for-the-badge&logo=gnu&logoColor=black)](https://gcc.gnu.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![C++11](https://img.shields.io/badge/C++11-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/std/the-standard)
+
