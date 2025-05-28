@@ -45,6 +45,96 @@ Day 1 is done and here’s what I tackled, how I approached the problems, the mi
 
 ---
 
+# 💯 100 Days Coding Challenge — Day 8 Complete 🚀
+
+Welcome back to the 100 Days Coding Challenge repository!
+
+This repo tracks my daily commitment to sharpening problem-solving skills for interviews and core computer science practice. Day 8 was focused on 2D matrix traversal, DFS applications, and search logic in grid-based problems.
+
+---
+
+## 🔹 Problem 1: Spiral Matrix  
+**Link:** [LeetCode - Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  
+**What I learned:** Traversing a matrix layer by layer using four boundaries (top, bottom, left, right).  
+**Insight:** Reducing the boundary inwards like peeling an onion helped achieve spiral traversal.  
+**Mistake made:** Initially messed up loop conditions — led to out-of-bound access. Rewrote traversal carefully.  
+**Time Complexity:** O(m × n)  
+**Space Complexity:** O(1) (excluding result array)
+
+---
+
+## 🔹 Problem 2: Search a 2D Matrix  
+**Link:** [LeetCode - Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)  
+**What I learned:** Can treat a 2D matrix as a 1D sorted array if the last element of each row is less than the first of the next.  
+**Insight:** Binary search could be used via index mapping — initially missed this.  
+**Mistake made:** Did brute-force row-wise search. Realized afterward this was inefficient — need to refactor with binary search.  
+**Time Complexity:** O(m × n) (brute-force)  
+**Space Complexity:** O(1)
+
+---
+
+## 🔹 Problem 3: Flood Fill  
+**Link:** [LeetCode - Flood Fill](https://leetcode.com/problems/flood-fill/)  
+**What I learned:** Classic DFS problem; important to check if already visited or the color doesn't match.  
+**Insight:** If the new color is the same as the old, avoid infinite recursion by early return.  
+**Mistake made:** Forgot to handle base case for color equality — caused TLE initially. Fixed with a conditional check.  
+**Time Complexity:** O(m × n)  
+**Space Complexity:** O(m × n) (due to recursion stack)
+
+---
+
+## 🔁 Reflection
+
+This day was all about grid traversal and boundary control.  
+Challenging but essential — especially the debugging in recursive cases like flood fill.
+
+---
+
+# 💯 100 Days Coding Challenge — Day 9 Complete 🚀
+
+Another day pushing through!  
+This challenge isn't just about solving problems — it's about understanding patterns, handling failures, and building momentum. Day 9 was tough — from combinatorics to prefix logic and array analysis.
+
+---
+
+## 🔹 Problem 1: Count the Number of Inversions (Number of Permutations That Satisfy Constraints)  
+**Link:** [LeetCode - Count Special Permutations](https://leetcode.com/problems/count-special-permutations/)  
+**What I learned:** Solving combinatorial constraints using recursive DP with memoization.  
+**Insight:** Needed to simulate permutations under constraints using a map and a 2D dp array.  
+**Mistake made:** Took a long time to interpret the transition logic — referred to a few editorials to understand state compression and recursive buildup.  
+**Time Complexity:** O(n²)  
+**Space Complexity:** O(n²) (due to DP array)
+
+---
+
+## 🔹 Problem 2: Maximum Difference Between Increasing Elements  
+**Link:** [LeetCode - Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)  
+**What I learned:** Tracking minimum seen so far to compute the difference.  
+**Insight:** Similar to stock-buy-sell logic — update smallest element and compare difference.  
+**Mistake made:** Initially had edge case issues when all elements are decreasing.  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+## 🔹 Problem 3: Find Pivot Index  
+**Link:** [LeetCode - Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)  
+**What I learned:** Prefix sum trick — total sum minus left sum minus current = right sum.  
+**Insight:** Careful bookkeeping avoids recalculating sums each iteration.  
+**Mistake made:** Overcomplicated at first with multiple passes — reduced it to single pass with clean math.  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+## 🔁 Reflection
+
+Day 9 truly tested my mental endurance.  
+Especially the permutations problem — took a few hours to analyze and understand before writing it cleanly.  
+Some problems needed referring to editorials *after* self-attempts — and that's perfectly valid in the learning curve. The key is to understand and then implement without copy-paste.
+
+---
+
 ## How to Run The Code
 
 - Each problem is implemented in **C++** inside the `Day1` folder.  
