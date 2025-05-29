@@ -1,3 +1,10 @@
+#Index of 100 Days Coding Challenge
+---
+-###[Day 1 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#day-1-problems-overview)
+-###[Day 8 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-8-complete-)
+-###[Day 9 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-9-complete-)
+-###[Day 10 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-10-complete-)
+---
 # 100 Days Coding Challenge — Day 1 Complete 🚀
 
 Welcome to my **100 Days Coding Challenge** repository!  
@@ -132,6 +139,51 @@ This challenge isn't just about solving problems — it's about understanding pa
 Day 9 truly tested my mental endurance.  
 Especially the permutations problem — took a few hours to analyze and understand before writing it cleanly.  
 Some problems needed referring to editorials *after* self-attempts — and that's perfectly valid in the learning curve. The key is to understand and then implement without copy-paste.
+
+---
+
+# 🚀 100 Days Coding Challenge — Day 10 Complete 💯
+
+Welcome to Day 10 of my 100 Days of Code challenge!  
+Today's theme: **Linked List Mastery** — tackling structural manipulation, cycle detection, and pointer tricks.
+
+---
+
+## 🧩 Problem 1: Palindrome Linked List  
+**Link:** [LeetCode - Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)  
+**What I learned:** Reversing the second half of the list and comparing two halves.  
+**Insight:** Use slow-fast pointers to find the middle, then reverse and compare.  
+**Mistake made:** Initially forgot to restore the list post-check (important in some variations).  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1) — after modifying the list in-place
+
+---
+
+## 🧩 Problem 2: Remove N-th Node from End of List  
+**Link:** [LeetCode - Remove N-th Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  
+**What I learned:** Two-pointer technique — maintaining a fixed gap.  
+**Insight:** Advance first pointer `n` steps ahead, then move both until the first hits null.  
+**Mistake made:** Initially failed to handle edge case when head is to be removed.  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+## 🧩 Problem 3: Linked List Cycle II  
+**Link:** [LeetCode - Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  
+**What I learned:** Floyd’s Cycle Detection algorithm and how to find cycle start.  
+**Insight:** After detecting a cycle, reset one pointer to head and move both at the same pace — they meet at the start of the cycle.  
+**Mistake made:** Took time to understand the math behind why pointers meet at the start.  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+## 🌀 Reflections
+
+Today’s problems built strong mental models for navigating linked lists.  
+All three required clean pointer manipulation and edge case handling.  
+I feel more confident in interview scenarios involving list-based questions.
 
 ---
 
