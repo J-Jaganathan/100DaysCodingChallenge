@@ -4,6 +4,7 @@
 - [Day 8 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-8-complete-)
 - [Day 9 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-9-complete-)
 - [Day 10 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-10-complete-)
+- [Day 10 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-11-complete-)
 ---
 # 100 Days Coding Challenge — Day 1 Complete 🚀
 
@@ -184,6 +185,51 @@ Today's theme: **Linked List Mastery** — tackling structural manipulation, cyc
 Today’s problems built strong mental models for navigating linked lists.  
 All three required clean pointer manipulation and edge case handling.  
 I feel more confident in interview scenarios involving list-based questions.
+
+---
+
+# 🚀 100 Days Coding Challenge — Day 11 Complete 💯
+
+Welcome to Day 11 of my 100 Days of Code challenge!  
+Today's theme: **Stack Mastery** — validating brackets, tracking next greater elements, and constant-time min retrieval.
+
+---
+
+## 🧩 Problem 1: Valid Parentheses  
+**Link:** [LeetCode - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  
+**What I learned:** Stack-based approach to match brackets using a hash map.  
+**Insight:** Push opening brackets onto a stack and match with closing brackets on traversal.  
+**Mistake made:** Initially confused about custom stack implementation using an array and top index.  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)
+
+---
+
+## 🧩 Problem 2: Next Greater Element I  
+**Link:** [LeetCode - Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)  
+**What I learned:** Used a monotonic stack to map next greater elements in one pass.  
+**Insight:** Traverse `nums2`, use a stack to maintain decreasing sequence, map next greater when popped.  
+**Mistake made:** Still partially unclear how the stack guarantees efficiency; will revisit with dry runs.  
+**Time Complexity:** O(n + m)  
+**Space Complexity:** O(n) (for hash map and stack)
+
+---
+
+## 🧩 Problem 3: Min Stack  
+**Link:** [LeetCode - Min Stack](https://leetcode.com/problems/min-stack/)  
+**What I learned:** Using two stacks — one for values, one for tracking minimums.  
+**Insight:** Push the current min onto the min stack alongside each value.  
+**Mistake made:** Didn’t fully grasp why `min(val, min_s.top())` works until revisiting logic.  
+**Time Complexity:** O(1) per operation  
+**Space Complexity:** O(n)
+
+---
+
+## 🌀 Reflections
+
+Today’s problems introduced elegant uses of stacks beyond basic push/pop.  
+I understood the first problem well, but still need to revisit the other two with fresh mind and dry runs.  
+Even on partial understanding days, showing up and documenting honestly is a win in itself.
 
 ---
 
