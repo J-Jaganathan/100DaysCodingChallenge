@@ -4,7 +4,7 @@
 - [Day 8 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-8-complete-)
 - [Day 9 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-9-complete-)
 - [Day 10 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-10-complete-)
-- [Day 10 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-11-complete-)
+- [Day 11 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-11-complete-)
 ---
 # 100 Days Coding Challenge — Day 1 Complete 🚀
 
