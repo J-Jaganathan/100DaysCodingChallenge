@@ -1,4 +1,4 @@
-#Index of 100 Days Coding Challenge
+Index of 100 Days Coding Challenge
 ---
 - [Day 1 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#day-1-problems-overview)
 - [Day 8 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-8-complete-)
