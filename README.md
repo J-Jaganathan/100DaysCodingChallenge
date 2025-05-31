@@ -5,6 +5,7 @@
 - [Day 9 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-9-complete-)
 - [Day 10 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-10-complete-)
 - [Day 11 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-11-complete-)
+- [Day 11 Summary](https://github.com/J-Jaganathan/100DaysCodingChallenge?tab=readme-ov-file#-100-days-coding-challenge--day-12-complete-)
 ---
 # 100 Days Coding Challenge — Day 1 Complete 🚀
 
@@ -232,6 +233,59 @@ I understood the first problem well, but still need to revisit the other two wit
 Even on partial understanding days, showing up and documenting honestly is a win in itself.
 
 ---
+
+# 🚀 100 Days Coding Challenge — Day 12 Complete 💯
+
+Welcome to Day 11 of my 100 Days of Code challenge!
+Today's theme: **Advanced Data Structures** — mastering cache systems, stacks using queues, and sliding windows.
+
+---
+
+## 🧹 Problem 1: LRU Cache
+
+**Link:** [LeetCode - LRU Cache](https://leetcode.com/problems/lru-cache/description/)
+**What I learned:** Implementing custom doubly linked list combined with a hashmap to simulate LRU behavior.
+**Insight:** Need to build helper functions (`addNode`, `deleteNode`) to manage LRU eviction efficiently.
+**Mistake made:** Took time to understand how multiple methods interact and update cache state.
+**Status:** *Partially Understood* (new type — full implementation, but more clarity needed with object references)
+**Time Complexity:** O(1) for `get` and `put`
+**Space Complexity:** O(capacity)
+
+---
+
+## 🤍 Problem 2: Implement Stack using Queues
+
+**Link:** [LeetCode - Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)
+**What I learned:** Simulate stack using a single queue by rotating elements after each push.
+**Insight:** After pushing, rotate elements to move the newest to the front. Clean and clever trick!
+**Mistake made:** None — understood fully. Just needed to get used to rotating via queue logic.
+**Time Complexity:**
+
+* Push: O(n)
+* Pop/Top/Empty: O(1)
+  **Space Complexity:** O(n)
+
+---
+
+## 🌌 Problem 3: Sliding Window Maximum
+
+**Link:** [LeetCode - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
+**What I learned:** Using deque to maintain max value in window in O(n) time.
+**Insight:** Always keep the largest element at the back of the deque, and remove elements out of the window.
+**Mistake made:** Initially confused about when to remove indices from deque — fixed with proper condition checks.
+**Time Complexity:** O(n)
+**Space Complexity:** O(k) (deque stores at most k elements)
+
+---
+
+## 🌀 Reflections
+
+Day 11 was intense! Implementing an **LRU Cache** stretched my understanding of real-world system design problems. The other two problems helped reinforce concepts of queue manipulation and windowed data processing.
+
+This was also a lesson in **multi-function class design**, debugging pointer issues, and pushing through partial understanding.
+
+---
+
 
 ## How to Run The Code
 
